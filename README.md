@@ -8,13 +8,13 @@ The user will input the ticker and alert price of their choice, and then input t
 
 # Requirements & Setup:
 
-Python Packages:
+<b>Python Packages:</b>
  - yfinance
  - time
  - datetime
  - smtplib
  
- Sender Email Requirements:
+<b>Sender Email Requirements:</b>
  - Gmail account
  - App passwords enabled
  
