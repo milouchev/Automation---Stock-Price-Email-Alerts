@@ -1,8 +1,8 @@
-# Email alerts/notifications for real-time price changes on stocks/indexes using Yahoo! Finance live data
+# Email alerts/notifications for real-time price changes on stocks, indexes, or currency pairs using Yahoo! Finance live data.
 
 import yfinance as yf
 
-# Enter stock ticker... Examples: ^GSPC, ^DJI, AAPL, TSLA, MC.PA, SHEL.L, RY.TO
+# Enter stock ticker... Examples: ^GSPC, ^DJI, ETH-USD, AAPL, TSLA, MC.PA, SHEL.L, RY.TO
 while True:  
     ticker = input("Enter the stock ticker: ")
     try:
@@ -15,7 +15,7 @@ while True:
         break
     except KeyError:
         print("\nIncorrect ticker entered. Please enter the ticker as it appears in Yahoo! Finance.\n"+\
-              "Examples: ^GSPC, ^DJI, AAPL, TSLA, MC.PA, SHEL.L, RY.TO\n")
+              "Examples: ^GSPC, ^DJI, ETH-USD, AAPL, TSLA, MC.PA, SHEL.L, RY.TO\n")
         pass
 
 # Getting stock info
