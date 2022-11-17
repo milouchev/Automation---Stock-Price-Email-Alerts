@@ -2,7 +2,7 @@
 
 import yfinance as yf
 
-# Enter stock ticker... Examples: ^GSPC, ^DJI, ETH-USD, AAPL, TSLA, MC.PA, SHEL.L, RY.TO
+# Enter stock ticker... Examples: AAPL, TSLA, ^GSPC, ^DJI, ETH-USD, GBPUSD=X, MC.PA, RY.TO
 while True:  
     ticker = input("Enter the stock ticker: ")
     try:
@@ -15,7 +15,7 @@ while True:
         break
     except KeyError:
         print("\nIncorrect ticker entered. Please enter the ticker as it appears in Yahoo! Finance.\n"+\
-              "Examples: ^GSPC, ^DJI, ETH-USD, AAPL, TSLA, MC.PA, SHEL.L, RY.TO\n")
+              "Examples: AAPL, TSLA, ^GSPC, ^DJI, ETH-USD, GBPUSD=X, MC.PA, RY.TO\n")
         pass
 
 # Getting stock info
