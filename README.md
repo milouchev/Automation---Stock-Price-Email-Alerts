@@ -1,5 +1,23 @@
-# Stock-Price-Email-Alerts-Python 
+# Project Overview
 
-A simple python program sending email notifications for real-time price changes on stocks using Yahoo! Finance live data.
+A simple python program for sending email alerts/notifications for real-time price changes on stocks or indexes using Yahoo! Finance live data.
 
-<img width="1108" alt="automatic_stock_email_alert" src="https://user-images.githubusercontent.com/98411949/197023922-9b8ff79d-977f-4613-90b9-d1b7aaeddee6.png">
+The user will input the ticker and alert price of their choice, and then input their sending email address and password, and destination email address for the alerts. The stock price will automatically be refreshed every second and displayed in the console until the alert price has been crossed, at which point the email alert will be sent.
+
+<img width="695" alt="Screenshot 2022-11-17 at 1 38 06 PM" src="https://user-images.githubusercontent.com/98411949/202531347-b309b6cb-493c-405d-b14e-15c3545b5e04.png">
+
+# Requirements & Setup:
+
+Python Packages:
+ - yfinance
+ - time
+ - datetime
+ - smtplib
+ 
+ Sender Email Requirements:
+ - Gmail account
+ - App passwords enabled
+ 
+ Once an App password is generated, use it as the email password in the console.
+ 
+<img width="642" alt="Screenshot 2022-11-17 at 1 08 27 PM" src="https://user-images.githubusercontent.com/98411949/202529680-27e8df4a-243d-4234-a282-7993af8b0027.png">
