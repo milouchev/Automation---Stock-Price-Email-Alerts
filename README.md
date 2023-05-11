@@ -1,6 +1,6 @@
 # Project Overview
 
-A simple python program for sending email alerts/notifications for real-time price changes on stocks, indexes, or currency pairs using Yahoo! Finance live data.
+A simple automation program for sending email alerts/notifications for real-time price changes on stocks, indexes, or currency pairs using Yahoo! Finance live data.
 
 The user will input the ticker and alert price of their choice, then input their sending email address and password, and destination email address for the alerts. The price will automatically be refreshed every second and displayed in the console until the alert price has been crossed, at which point the email alert will be sent.
 
